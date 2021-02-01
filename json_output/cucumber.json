@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login scenario for demoblaze webpage.",
+        "description": "",
+        "id": "this-is-demoblaze-login-scenario.;login-scenario-for-demoblaze-webpage.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11201363900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on home page of demoblaze.",
+            "match": {
+              "location": "DemoblazeStepDef.user_is_on_home_page_of_demoblaze()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50620300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User clicks on Log In link.",
+            "match": {
+              "location": "DemoblazeStepDef.user_clicks_on_Log_In_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86774900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Login window will open.",
+            "match": {
+              "location": "DemoblazeStepDef.login_window_will_open()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 771418700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user will enter username and password",
+            "match": {
+              "location": "DemoblazeStepDef.user_will_enter_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 104171900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on Log In button",
+            "match": {
+              "location": "DemoblazeStepDef.click_on_Log_In_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User will login sucessfully.",
+            "match": {
+              "location": "DemoblazeStepDef.user_will_login_sucessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is Demoblaze login scenario.",
+    "description": "",
+    "id": "this-is-demoblaze-login-scenario.",
+    "keyword": "Feature",
+    "uri": "DemoblazeLogin.feature"
+  }
+]

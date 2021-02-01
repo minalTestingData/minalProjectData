@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.214387">
+    <testcase classname="This is Demoblaze login scenario." name="Login scenario for demoblaze webpage." time="12.214387">
+        <system-out><![CDATA[Given User is on home page of demoblaze.....................................passed
+When User clicks on Log In link.............................................passed
+Then Login window will open.................................................passed
+Then user will enter username and password..................................passed
+And click on Log In button..................................................passed
+Then User will login sucessfully............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
